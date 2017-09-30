@@ -3,7 +3,7 @@ layout: post
 title: Tutorial Safari Tour Tanzania
 ---
 
-The grand plan of this tutorial is to build a website that helps tourists comming/from Tanzania find best national parks and game reserves available in Tanzania
+The grand plan of this tutorial is to build a website that helps tourists comming to/from Tanzania find best national parks and game reserves available in Tanzania
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
