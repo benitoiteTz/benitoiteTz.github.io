@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Build a Website with HTML5
+title: Tutorial: Safari Tour Tanzania
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
