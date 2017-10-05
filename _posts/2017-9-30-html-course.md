@@ -5,6 +5,4 @@ title: Tutorial Safari Tour Tanzania
 
 The grand plan of this tutorial is to build a website(Safari Website) that helps tourists comming to/from Tanzania find best national parks and game reserves available in Tanzania
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Safari Tour website covers core fundamentals of HTML5 and CSS3. You will build a basic website that has many of the features you'd expect to find in a full-blown website: Home page with summary of everything about safari, National parks page showing all national parks found in Tanzania, Game reserves page showing a list of all gamereserves found in Tanzania and a contact us page for contacting people organising safari.
