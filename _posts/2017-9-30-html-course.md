@@ -10,3 +10,9 @@ Safari Tour website covers core fundamentals of HTML5 and CSS3. You will build a
 You'll learn enough core HTML5 and CSS3 to get started and gain confidance to build websites. You'll find many links to pages with greater depth.
 
 When you're done with this tutorial the website will look like this [Safari Tour](https://safari.neocities.org/)
+
+
+---
+layout: post
+title: Simple HTML page
+---
