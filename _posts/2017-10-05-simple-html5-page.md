@@ -3,14 +3,5 @@ layout: post
 title: Simple Html5 Page
 ---
 
-The grand plan of this tutorial is to build a website(Safari Website) that helps tourists comming to/from Tanzania find best national parks and game reserves available in Tanzania
-
-Safari Tour website covers core fundamentals of HTML5 and CSS3. You will build a basic website that has many of the features you'd expect to find in a full-blown website: Home page with summary of everything about safari, National parks page showing all national parks found in Tanzania, Game reserves page showing a list of all gamereserves found in Tanzania and a contact us page for contacting people organising safari.
-
-You'll learn enough core HTML5 and CSS3 to get started and gain confidance to build websites. You'll find many links to pages with greater depth.
-
-When you're done with this tutorial the website will look like this [Safari Tour](https://safari.neocities.org/)
-
-
-### Next Step
-You'll build Safari Tour website, step by step. Start now by building a simple HTML5 page
+### What is HTML?
+  the acrnym HTML stands for Hypertext Markup Language, the authorizing language used to create pages on the world wide web(www). HTML is a set of codes or HTML tags that provide a web browser with directions on how to structure a web page's information and features.
