@@ -11,3 +11,6 @@ You'll learn enough core HTML5 and CSS3 to get started and gain confidance to bu
 
 When you're done with this tutorial the website will look like this [Safari Tour](https://safari.neocities.org/)
 
+
+### Next Step
+You'll build Safari Tour website, step by step. Start now by building a simple HTML5 page
