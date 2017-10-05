@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tutorial Safari Tour Tanzania
+title: Tutorial&#58; Safari Tour Tanzania
 ---
 
 The grand plan of this tutorial is to build a website(Safari Website) that helps tourists comming to/from Tanzania find best national parks and game reserves available in Tanzania
