@@ -19,7 +19,7 @@ the acrnym HTML stands for Hypertext Markup Language, the authorizing language u
  Open **Start** > **Programs** > **Accessories** > **Notepad**
  
 ### Step One 1&#58; Open NotePad(Mac)
-Open Finder > Applications > TextEdit
+Open **Finder** > **Applications** > **TextEdit**
 
 Also Change some preferences to get the application save files correctly. In **Preferences** > **Format** choose **"Plain Text"** , then under "OPen and Save", Check the box that says "Ignore rich text commands in HTML files". **Then open a new document to place the code**
 
