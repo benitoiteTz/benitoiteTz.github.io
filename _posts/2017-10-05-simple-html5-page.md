@@ -45,7 +45,7 @@ Write or Copy some HTML into NotePad.
 
 ![]({{ "/images/notepad-web.png" }})
 
-### Step 2&#58; Save The HTML5 Page
+### Step 3&#58; Save The HTML5 Page
 Save the file on your computer. Select **File**  > **Save As** in the Notepad menu.
 Name the file **index.html** and set the encoding to **UTF-8** (which is the prefered encoding for HTML5 files).
 
