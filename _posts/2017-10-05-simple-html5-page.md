@@ -21,5 +21,16 @@ the acrnym HTML stands for Hypertext Markup Language, the authorizing language u
 ### Step One 1&#58; Open NotePad(Mac)
 Open **Finder** > **Applications** > **TextEdit**
 
-Also Change some preferences to get the application save files correctly. In **Preferences** > **Format** choose **"Plain Text"** , then under "OPen and Save", Check the box that says "Ignore rich text commands in HTML files". **Then open a new document to place the code**
+Also Change some preferences to get the application save files correctly. In **Preferences** > **Format** choose **"Plain Text"** , then under "Open and Save", Check the box that says "Ignore rich text commands in HTML files". **Then open a new document to place the code**
 
+### Step Two 2&#58; Write Some Html
+Write or Copy some HTML into NotePad.
+
+This is my markdown muck with a link to [Sonatype][1] and my code below:
+<pre lang="java">public class Hello {
+  public static void main(String[] args) {
+    System.out.println("Hello World!");
+  }
+}
+<pre>
+[1]: http://www.sonatype.com
