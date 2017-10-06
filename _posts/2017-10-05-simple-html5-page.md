@@ -25,12 +25,3 @@ Also Change some preferences to get the application save files correctly. In **P
 
 ### Step Two 2&#58; Write Some Html
 Write or Copy some HTML into NotePad.
-
-This is my markdown muck with a link to [Sonatype][1] and my code below:
-<pre lang="java">public class Hello {
-  public static void main(String[] args) {
-    System.out.println("Hello World!");
-  }
-}
-<pre>
-[1]: http://www.sonatype.com
