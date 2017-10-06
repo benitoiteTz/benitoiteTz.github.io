@@ -54,3 +54,8 @@ Name the file **index.html** and set the encoding to **UTF-8** (which is the pre
 **You can either use .htm or .html as file extension. There is no difference, it is up to you**
 
 ### Step 4&#58; View the HTML5 Page in Your Browser
+Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with").
+
+The result will look much like this&#58
+
+![]({{ "/images/browser-view.png" }})
