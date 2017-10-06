@@ -10,7 +10,7 @@ the acrnym HTML stands for Hypertext Markup Language, the authorizing language u
  Web pages can be created and modified by using professional HTML5 Editors. However for learning HTML5 we recommend a simple text editor like Notepad(PC) or TextEdit(Mac). We believe using a simple text editor is a good way to learn HTML5. Follow four steps below to create your first web page with Notepad or TextEdit
  
 ### Step One 1&#58; Open NotePad(PC)
- ***Windows 8 or later&#58;**
+ **Windows 8 or later&#58;**
  
  Open Start Screen (the window symbol at the bottom left on your screen). Type **Notepad**.
  
