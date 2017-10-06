@@ -41,3 +41,5 @@ Write or Copy some HTML into NotePad.
 </html>
 
 {% endhighlight %}
+
+![My helpful screenshot]({{ "/images/notepad-web.png" }})
