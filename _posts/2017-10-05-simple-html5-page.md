@@ -28,18 +28,19 @@ Write or Copy some HTML into NotePad.
 
 {% highlight html %}
 <!DOCTYPE html>
+
 <html>
-<head>
-<title>Page Title</title>
-</head>
+
 <body>
 
 <h1>My First Heading</h1>
+
 <p>My first paragraph.</p>
 
 </body>
+
 </html>
 
 {% endhighlight %}
 
-![My helpful screenshot]({{ "/images/notepad-web.png" }})
+![]({{ "/images/notepad-web.png" }})
