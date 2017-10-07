@@ -63,10 +63,4 @@ The result will look much like this&#58;
 ![]({{ "/images/browser-view.png" }})
 
 ### Explaining Some HTML5 Writen&#58;
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
+* The <!DOCTYPE html> declaration defines this document to be HTML5
