@@ -61,6 +61,9 @@ Open the saved HTML file in your favorite browser (double click on the file, or 
 The result will look much like this&#58;
 
 ![]({{ "/images/browser-view.png" }})
+The purpose of the web browser (Chrome,IE,FireFox,Safari) is to read HTML5 documents and display them.
+
+The browser does not display the HTML5 tags, but uses them to determine to display the document
 
 ### Explaining Some HTML5 Writen&#58;
 {% highlight html %}
