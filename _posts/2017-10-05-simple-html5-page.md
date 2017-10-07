@@ -63,6 +63,10 @@ The result will look much like this&#58;
 ![]({{ "/images/browser-view.png" }})
 
 ### Explaining Some HTML5 Writen&#58;
-*{% highlight html %}
-The <!DOCTYPE html> declaration defines this document to be HTML5
+{% highlight html %}
+1. The <!DOCTYPE html> declaration defines this document to be HTML5
+2. The <html> element is the root element of an HTML5 page 
+3. The <body> element contains the visible page content
+4. The <h1> element defines the large heading 
+5. The <p> element defines a paragraph
 {% endhighlight %}
