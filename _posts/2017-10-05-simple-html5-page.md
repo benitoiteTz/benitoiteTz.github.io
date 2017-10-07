@@ -70,3 +70,13 @@ The result will look much like this&#58;
 4. The <h1> element defines the large heading 
 5. The <p> element defines a paragraph
 {% endhighlight %}
+
+#### HTML5 tags
+HTML5 tags are element names surrounded by angle brackets&#58;
+
+{% highlight html %}
+<tagname> content goes here ... </tagname>
+{% endhighlight %}
+* HTML5 tags normally come **in pairs** like <p> and </p>
+* The first tag in pair is the **start tag** the second tag is **end tag**
+* The end tag is written like the start tag, but with a **forward slash** inserted before the tag name
