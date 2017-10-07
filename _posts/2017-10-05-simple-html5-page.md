@@ -63,3 +63,4 @@ The result will look much like this&#58;
 ![]({{ "/images/browser-view.png" }})
 
 ### Explaining Some HTML5 Writen&#58;
+* The {% highlight html %} <!DOCTYPE html> {% endhighlight %} declaration defines this document to be HTML5
