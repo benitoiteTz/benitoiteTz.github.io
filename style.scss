@@ -155,7 +155,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 12px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -192,17 +192,18 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #b4bbb0;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
+  padding-bottom:10px;
   letter-spacing: 1px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
+  margin: -5px 0 0 18px;
+  color: #b4bbb0;
   font-size: 16px;
 
   @include mobile {
@@ -212,7 +213,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  // margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -225,7 +226,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #b4bbb0;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -282,7 +283,31 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+.col-md-9{
+  margin-top:100px;
+}
+.nav.navbar-nav.side-nav {
+  position: fixed;
+        top: 77px;
+        left: 250px;
+        width: 250px;
+        margin-left: -250px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    // width: 10%;
+}
 
+.navbar-inverse {
+    background-color: #337ab7;
+    border-color: #31708f;
+    padding: 10px 0;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
