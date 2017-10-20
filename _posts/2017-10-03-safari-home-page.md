@@ -139,7 +139,7 @@ h1, h2, p {
 }
 {% endhighlight %}
 
-#### Let finish up our header
+#### Lets' finish up our header
 Continue with code we wrote in creating header section, we are going to embed css within
 the same file to style our header
 
@@ -671,19 +671,7 @@ header h2 {
     padding: 22px 0 7px 25px;
 }
 
-/*footer*/
-footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    margin-top: 20px;
-    text-align: center;
-}
 
-footer span {
-    color: #F39C12;
-}
 
     </style>
 
@@ -777,3 +765,337 @@ src="https://www.youtube.com/embed/-zErAgl7FUA?playlist=PLpmkUSCWRiIWHG6Z8YPkBgX
 </iframe>
 
 This is how our home page looks like after adding contents
+
+#### Lets' finish up our footer
+We are going to add footer at the bottom and footer css
+
+{% highlight html %}
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    overflow-x: hidden;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li, article, aside, footer, header, menu, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+/*css for header*/
+
+.safari {
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 90px;
+}
+
+.logo-safari {
+    margin-left: 15px;
+}
+
+.logo-safari h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 46px;
+    padding: 10px 0 0 24px;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo-words {
+    color: #F39C12;
+    padding-left: 30px;
+}
+
+/*navbar*/
+#nav ul li {
+    float: left;
+    display: inline-block;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+
+#nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#nav ul li a, #nav ul li span {
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
+    -ms-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+#nav ul li > ul {
+    display: none;
+}
+
+#nav ul li:hover a, #nav ul li:hover span {
+    background: #F8C471;
+}
+
+#nav ul li a.active {
+    color: #F39C12;
+}
+
+/*container section*/
+section {
+    margin-top: 20px;
+}
+
+section .container {
+    min-width: 800px;
+    background-color: #CCD1D1;
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+.container {
+    min-width: 800px;
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.page-wrapper {
+    margin-right: 15px;
+    margin-left: 35px;
+}
+
+/*page-contantens*/
+
+.page-contents {
+    height: 520px;
+}
+
+.page-contents aside,
+.page-contents section {
+    height: 500px;
+}
+
+.page-contents aside {
+    float: left;
+    width: 760px;
+}
+
+.page-contents section {
+    float: right;
+    width: 360px;
+
+}
+
+hr {
+    color: #F39C12;
+    border: 0;
+    border-top: solid 1px #F39C12;
+    margin-left: 20px;
+}
+
+aside h2 {
+    font-weight: 500;
+    font-size: 43px;
+    padding-left: 20px;
+    color: #273746;
+}
+
+aside h3 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 10PX;
+    padding-left: 20px;
+    color: #273746;
+    line-height: 1.25em;
+    font-family: cursive;
+}
+
+aside p {
+    padding-left: 40px;
+    padding-top: 15px;
+    color: #34495E;
+    font-family: cursive;
+    opacity: 0.7;
+
+}
+
+section h2 {
+    font: 14pt Helvetica, "Helvetica neue", Arial, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #493831;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+/*css for the most visited part*/
+article header {
+    height: 60px;
+    background-color: grey;
+
+}
+
+header h2 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 18px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.visited {
+    background-color: #FDEBD0;
+    opacity: 0.7;
+    width: 360px;
+}
+
+.info {
+    margin: 0px 0 5px 0px;
+
+}
+
+.visited aside {
+    float: left;
+    width: 180px;
+}
+
+.visited section {
+    float: right;
+    width: 180px;
+}
+
+.info h5 {
+    text-transform: capitalize;
+    padding: 12px 0 0 0;
+}
+
+.info p {
+    font-size: 12px;
+}
+
+/* Image */
+
+.image {
+    display: inline-block;
+    outline: 0;
+}
+
+.image img {
+    width: 78%;
+    border-radius: 2px;
+}
+
+.image.fit {
+    width: 80%;
+    float: left;
+    padding: 22px 0 7px 25px;
+}
+
+
+
+    </style>
+
+</head>
+<body>
+<header class="safari">
+    <div class="logo-safari">
+        <h1>Safari</h1>
+        <p id="logo-words">Explore the beauty of Tanzania</p>
+    </div>
+    <div>
+    </div>
+    <nav id="nav">
+        <ul>
+            <li id="current"><a class="active" href="index.html">home</a></li>
+            <li><a href="nation_parks.html">nation parks</a></li>
+            <li><a href="game_reserve.html">game reserve</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <div class="container">
+        <div class="page-wrapper">
+            <img src="images/safari-zoo.jpg" width="1100" height="550">
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="page-contents">
+        <aside>
+            <h2>Welcome to our site let's begin our safari</h2>
+            <hr>
+            <p>A safari is a journey. This is the meaning of the word in Swahili, the language of East Africa. Your
+                journey into Africa starts with Tanzania-Experience. When you join us on safari you will be met at the
+                airport, taken to a hotel or a central meeting point and briefed before you set off. You will be
+                transported in a well-maintained, clean Toyota 4×4 safari vehicle, driven by a professional local guide
+                in areas that will leave you breathless with wonder and excitement. You will search for the ‘Big Five’ –
+                buffalo, elephant, leopard, lion and rhino – and will be amazed by the sheer beauty of grass-covered
+                savannas, extinct volcanoes and rare birds. You will see animals, landscapes and flowers and you will
+                meet the local people and taste local food.</p>
+
+            <h3>Adventure camping safari</h3>
+            <p>On our adventure camping safaris you will be immersed in the East African wilderness. You will travel on
+                rough adventurous roads, pass tiny rural settlements and see fascinating landscapes and abundant
+                wildlife. All your senses will be involved; from smelling early morning coffee, experiencing the thrill
+                of a kill to the chill of a morning game drive. Falling asleep to the hooting of an owl or waking up
+                with the roaring of a lion is what you will experience. The safari experience is all the more intense as
+                you are ‘right in the middle’ of it all. The nearness to the nature, especially at night with its
+                nocturnal sounds, compensates for the luxury of a lodge. Our camping safaris in Tanzania offer all of
+                this and are therefore perfect for nature lovers and those who are looking for a break from civilisation
+                and its comforts. Camping is to experience East Africa’s nature, animals and cultures in an affordable
+                way.</p>
+        </aside>
+        <section class="visited">
+            <article>
+                <header>
+                    <h2>Most visited</h2>
+                </header>
+                <aside>
+                    <div class="image fit"><img src="images/giraf.jpg" alt=""/></div>
+                    <div class="image fit"><img src="images/zebra.jpg" alt=""/></div>
+                    <div class="image fit"><img src="images/g2.jpg" alt=""/></div>
+                    <div class="image fit"><img src="images/twiga.jpg" alt=""/></div>
+                </aside>
+                <section class="info">
+                    <h5>Serengeti</h5>
+                    <p>Serengeti has come to symbolize paradise to many of us.Meet the Maasai, who had grazed their
+                        cattle on the vast grassy plains.</p>
+                    <h5>Ngorongoro</h5>
+                    <p>The jewel in Ngorongoro's crown is a deep, volcanic crater, the largest un flooded and unbroken
+                        caldera in the world. The Ngorongoro Crater is a breathtaking natural wonder.</p>
+                    <h5>Manyara</h5>
+                    <p>Located beneath the cliffs of the Manyara Escarpment, on the edge of the Rift Valley, Lake
+                        Manyara National Park offers varied ecosystems, incredible bird life, and awesome views.</p>
+                    <h5>Mikumi</h5>
+                    <p>Located between the Uluguru Mountains and the Lumango range, the park has a wide variety of
+                        wildlife that can be easy spotted and also well acclimatized to game viewing.</p>
+                </section>
+            </article>
+        </section>
+    </div>
+</div>
+</body>
+</html>
+{% endhighlight %}
+
+#### Conglatulations for reaching here, now your home page is complete.
+Your home page looks like it was demostrated by the first video on top
