@@ -190,10 +190,11 @@ img {
     margin: 0 auto;
   }
 }
-
+h1{
+  color: #279ef1;
+}
 .site-name {
   margin: 0;
-  color: #b4bbb0;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -227,7 +228,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #b4bbb0;
+    color: white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -236,6 +237,9 @@ nav {
       margin: 0 10px;
       color: $blue;
     }
+  }
+  a:hover{
+    color: black;
   }
 }
 
@@ -290,6 +294,7 @@ footer {
 .nav.navbar-nav.side-nav {
   position: fixed;
         top: 77px;
+  padding-top: 20px;
         left: 250px;
         width: 250px;
         margin-left: -250px;
@@ -303,12 +308,21 @@ footer {
     transition: 0.3s;
     // width: 10%;
 }
-
-.navbar-inverse {
-    background-color: #337ab7;
-    border-color: #31708f;
-    padding: 10px 0;
+.site-avatar {
+  width: 50px;
+  height: 40px;
 }
+.site-avatar img {
+  border-radius: 5px;
+  margin-top: 12px;
+}
+.nav.navbar-nav.navbar-right{
+  color: #ffffff;
+}
+.site-description{
+  color:white;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

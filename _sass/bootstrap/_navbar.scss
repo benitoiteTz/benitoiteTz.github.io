@@ -529,8 +529,8 @@
 // Inverse navbar
 
 .navbar-inverse {
-  background-color: $navbar-inverse-bg;
-  border-color: $navbar-inverse-border;
+  background-color: #1976d2;
+  border-color: #1976d2;
 
   .navbar-brand {
     color: $navbar-inverse-brand-color;
@@ -544,25 +544,19 @@
   .navbar-text {
     color: $navbar-inverse-color;
   }
-
+  .navbar-nav.pull-right {
+    > li > a {
+      color: white;
+    }
+    > li > a:hover{
+      color: black;
+    }
+  }
   .navbar-nav {
     > li > a {
-      color: $navbar-inverse-link-color;
+      color: #777777;
+    }
 
-      &:hover,
-      &:focus {
-        color: $navbar-inverse-link-hover-color;
-        background-color: $navbar-inverse-link-hover-bg;
-      }
-    }
-    > .active > a {
-      &,
-      &:hover,
-      &:focus {
-        color: $navbar-inverse-link-active-color;
-        background-color: $navbar-inverse-link-active-bg;
-      }
-    }
     > .disabled > a {
       &,
       &:hover,
